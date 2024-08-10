@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f2f2;
+    color: #f1ebeb;
+}
+/* .back{
+    background-image:linear-gradient(rgba(3, 3, 25, 0.3),rgb(37, 37, 216),rgb(0, 0, 5)) 
+}  */
+.iframe{
+    text-align: center;
+    align-items: center;
+    place-items: center;
+    box-shadow: rgb(50, 25, 5);
+    box-shadow: rgb(5, 10, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+   
+
+header {
+    background: hwb(28 5% 7% / 0.827);
+    color: #f6f0f0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #f5f1f1;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    background: #e00f0f;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+    
+}
+
+.project  {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.project:hover{
+    
+}
+.text{
+    font-size: 35px;
+}
+.Email {
+    color: rgb(241, 234, 234);
+    font-size: 25px;
+}
+
+.social{
+    font-size: 5px;
+    display: inline-block;
+    padding:0;
+    margin:0;
+}
+form { max-width: 600px;
+     margin: 0 auto;
+      padding: 1em; 
+      background: #626060; 
+      border-radius: 5px; } 
+      form label { display: block;
+         margin-bottom: .5em;
+         } 
+         form input, form textarea { width: 100%;
+             padding: .7em;
+              margin-bottom: 1em;
+               border: 1px solid #ccc; 
+               border-radius: 5px; }
+                form button { padding: .7em 1.5em;
+                     background: #696767;
+                      color: #151515; 
+                      border: none;
+                       border-radius: 5px;
+                        cursor: pointer; } 
+                        form button { background: #f0ecec; }
+                        .my-image:hover{
+                            width: 300px;
+                            border-radius: 100px;
+                            border: 10px, solid#fefdfd;
+                            padding: 0;
+                            margin: 0 auto;
+                            background-image: cover;
+                            text-align: center;
+
+                        }
+                        .image{
+                            width: 300px;
+                            border-radius: 100px;
+                            border: 10px, solid#f5f2f2;
+                            padding: 0;
+                            margin: 0 auto;
+                            background-image: cover;
+                            text-align: center;
+                        }
+                        .image:hover{
+                            color: blue;
+                        }
+                  .h1:hover{
+                    color: brown;
+
+                  }
+                  .Email :active{
+                    color:blue;
+
+                  }
+                  
